@@ -4,6 +4,7 @@
 **ScopedModel**,
 **Redux**,
 **Bloc**,
+**Provider**,
 
 更多了解关于Flutter状态管理相关内容的学习
 

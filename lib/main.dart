@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fluttermodel/demo/bloc_demo.dart';
+import 'package:fluttermodel/demo/provider_demo.dart';
 import 'package:fluttermodel/demo/redux_demo.dart';
 import 'package:fluttermodel/demo/scopedmodel_demo.dart';
 
@@ -72,6 +73,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 'ReduxDemo', ReduxDemo(), context),
             _creatListTile(
                 'BlocDemo', BlocDemo(), context),
+            _creatListTile(
+                'ProviderDemo', ProviderDemo(), context),
           ],
         ),
       ),
